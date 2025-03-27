@@ -9,13 +9,23 @@ body{
 
 
 div.navbar{
+    width: 100vw;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     min-height: 45px;
     height: 10vh;
-    width: 100vw;
     background-color: blueviolet;
     color: #f0f0f0;
+    gap: 20px;
+}
+
+div.navbar a{
+    padding: auto;
+    align-self: center;
+    justify-self: center;
+    color: #f0f0f0;
+    text-decoration: none;
 }
 
 div.button{
@@ -24,11 +34,11 @@ div.button{
     display: flex;
     justify-content: center;
     background-color: blueviolet;
-    color: wheat;
+    color: f0f0f0;
     align-self: center;
 }
 
 div.button a{
-    color: wheat;
+    color: #f0f0f0;
     text-decoration: none;
 }
