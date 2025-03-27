@@ -7,15 +7,29 @@ body{
     padding: 0;
 }
 
-div{
-    width: 100%;
-    height: 100%;
-}
+
 
 div.full-centered{
+    width: 100%;
+    height: 100%;
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div.button{
+    padding: 1vh 1vW ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: wheat;
+    align-self: center;
+}
+
+div.button a{
+    color: wheat;
+    text-decoration: none;
 }
